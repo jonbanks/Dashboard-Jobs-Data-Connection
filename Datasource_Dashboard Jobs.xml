@@ -1677,7 +1677,7 @@
           <tns:DisplayName>Chart or KPI Name</tns:DisplayName>
           <tns:Height>-1</tns:Height>
           <tns:Id>1256</tns:Id>
-          <tns:LockVersion>1</tns:LockVersion>
+          <tns:LockVersion>2</tns:LockVersion>
           <tns:ObjectId>5246</tns:ObjectId>
           <tns:Position>-1</tns:Position>
           <tns:Type/>
@@ -1686,7 +1686,6 @@
           <tns:YPos>-1</tns:YPos>
           <tns:ObjectDefaultValue/>
           <tns:CanSelectAll>true</tns:CanSelectAll>
-          <tns:CanSelectMultiple>true</tns:CanSelectMultiple>
           <tns:AllText/>
           <tns:ExcludeFromCascade>N</tns:ExcludeFromCascade>
           <tns:Filter>true</tns:Filter>
@@ -1699,7 +1698,7 @@
           <tns:DisplayName>Status</tns:DisplayName>
           <tns:Height>-1</tns:Height>
           <tns:Id>1257</tns:Id>
-          <tns:LockVersion>1</tns:LockVersion>
+          <tns:LockVersion>2</tns:LockVersion>
           <tns:ObjectId>5236</tns:ObjectId>
           <tns:Position>-1</tns:Position>
           <tns:Type/>
@@ -1708,14 +1707,32 @@
           <tns:YPos>-1</tns:YPos>
           <tns:ObjectDefaultValue/>
           <tns:CanSelectAll>true</tns:CanSelectAll>
-          <tns:CanSelectMultiple>true</tns:CanSelectMultiple>
           <tns:AllText/>
           <tns:ExcludeFromCascade>N</tns:ExcludeFromCascade>
           <tns:Filter>true</tns:Filter>
           <tns:Uuid>a4b6d926-7d42-447b-9fd4-187e07aa089b</tns:Uuid>
         </tns:CategoryObject>
       </tns:CategoryObjectList>
-      <tns:PreferredLayoutList/>
+      <tns:PreferredLayoutList>
+        <tns:PreferredLayout>
+          <tns:Id>844</tns:Id>
+          <tns:LayoutType>-1</tns:LayoutType>
+          <tns:LockVersion>1</tns:LockVersion>
+          <tns:TabIndex>1</tns:TabIndex>
+          <tns:UserSerial>-1</tns:UserSerial>
+          <tns:LayoutDescription>Scheduler Default</tns:LayoutDescription>
+          <tns:LayoutXml>&lt;layout defaultForCategory="true" label="Scheduler Default" categoryId="121">
+  &lt;row percentHeight="100" percentWidth="100" uuid="766588c9-f061-4455-986e-eb0885238fd7">
+    &lt;column uuid="5b24963f-e84f-439e-aaee-441c39441fd5">
+      &lt;chart id="638" percentWidth="476" percentHeight="100" chartName="Dashboard Jobs" />
+    &lt;/column>
+  &lt;/row>
+&lt;/layout>
+</tns:LayoutXml>
+          <tns:DefaultForCategory>true</tns:DefaultForCategory>
+          <tns:PublishedLayout>true</tns:PublishedLayout>
+        </tns:PreferredLayout>
+      </tns:PreferredLayoutList>
       <tns:ChartColumnList>
         <tns:ChartColumn>
           <tns:ChartId>638</tns:ChartId>
